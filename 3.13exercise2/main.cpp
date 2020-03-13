@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+
 	cv::Mat firstMat = imread("E:\\PIC\\112.jpg");
 	Mat GrayMat;
 	Mat all_result;
