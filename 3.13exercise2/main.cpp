@@ -12,6 +12,7 @@ int main()
 	Mat local_result;
 	cvtColor(firstMat, GrayMat, CV_BGR2GRAY);
 
+
 	//全局二值化
 	threshold(GrayMat, all_result, 100, 255, THRESH_BINARY);
 
